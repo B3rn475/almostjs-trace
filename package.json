@@ -1,0 +1,40 @@
+{
+  "name": "almost-trace",
+  "version": "1.0.0-alpha.1",
+  "description": "ALMOsT is an AgiLe MOdel Transformations framework for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B3rn475/almostjs-trace.git"
+  },
+  "author": "Carlo Bernaschina (GitHub: B3rn475)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/B3rn475/almostjs-trace/issues"
+  },
+  "homepage": "https://github.com/B3rn475/almostjs-trace#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "exposify": "^0.5.0",
+    "gulp": "^3.9.0",
+    "gulp-extract-sourcemap": "^0.1.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "stringify": "^5.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "es6-map": "^0.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "prepublish": "gulp"
+  }
+}
